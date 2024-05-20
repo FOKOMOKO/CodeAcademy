@@ -1,0 +1,43 @@
+let userName = "ALex";
+userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
+const userQuestion = "what time of day is it now?";
+console.log(`${userName} asked a question, which is "${userQuestion}".`);
+let randomNumber = Math.floor(Math.random() * 8);
+
+
+// console.log(randomNumber);
+let eightBall = "";
+switch (randomNumber) {
+  case 0:
+    eightBall = "What's the...";
+    break;
+  case 1:
+    eightBall = "Did you have a break?";
+    break;
+  case 2:
+    eightBall = "No, I'm sirious, did you eat?!";
+    break;
+  case 3:
+    eightBall = "Well, it's 2/3 of your work time";
+    break;
+  case 4:
+    eightBall = "Did you recieve an email with orders?";
+    break;
+  case 5:
+    eightBall = "It's time for the supper!";
+    break;
+  case 6:
+    eightBall = "It's time for some sunbathes! lol";
+    break;
+  case 7:
+    eightBall = "It's time for some code!";
+    break;
+  default:
+    // eightBall = "Something went wrong, call on me";
+    console.log("error");
+    break;
+}
+
+
+console.log(`the answer is: it's ${randomNumber} pm; ${eightBall}`);
+// console.log(eightBall+randomNumber)
