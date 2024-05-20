@@ -1,0 +1,13 @@
+// const of today's weather in kelvin
+const kelvin = 0;
+// var in celsius, 273 points less, then kelvin
+const celsius = kelvin - 273;
+// function to compute fh
+let fahrenheint = celsius * (9/5) + 32
+let newton = celsius *(33/100)
+newton = Math.floor(newton)
+// fahrenheit = fahrenheit.floor();
+// wfe
+fahrenheint = Math.floor(fahrenheint)
+console.log(`the temperature is ${fahrenheint} degrees Fahrenheit`)
+console.log(newton)
